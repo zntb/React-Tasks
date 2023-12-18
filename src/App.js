@@ -13,7 +13,7 @@ function App() {
     setError(null);
     try {
       const response = await fetch(
-        'https://react-http-89353-default-rtdb.europe-west1.firebasedatabase.app//tasks.json'
+        'https://react-http-89353-default-rtdb.europe-west1.firebasedatabase.app/tasks.json'
       );
 
       if (!response.ok) {
